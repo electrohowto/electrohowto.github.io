@@ -1,0 +1,78 @@
+<<!DOCTYPE html>
+<html>
+
+<head>
+<title>The Resistor</title>
+</head>
+
+<body background="TRANS.png">
+<h1><p align="center">The Resistor</p></h1>
+<p>A resistor is a device that limits current in a circuit. The value of a resistor is measured in <b>ohms</b> (&#937;).</p>
+<p>The symbol for a resistor looks like this:</p>
+<p align="center"><img src="ressym.gif" width="150" height="150"></p>
+<p>A resistor's value is indicated by its colored bands. Here is the color code:</p>
+</p><table border="1" width="18%">
+	<tr>
+		<td align="center"><b>Color</b></td>
+		<td align="center"><b>Number</b></td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#000000"><font color="#FFFFFF">Black</font></td>
+		<td align="center">0</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#CC6600"><font color="#FFFFFF">Brown</font></td>
+		<td align="center">1</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#FF0000"><font color="#FFFFFF">Red</font></td>
+		<td align="center">2</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#FF9900">Orange</td>
+		<td align="center">3</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#FFFF00">Yellow</td>
+		<td align="center">4</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#008000"><font color="#FFFFFF">Green</font></td>
+		<td align="center">5</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#0000FF"><font color="#FFFFFF">Blue</font></td>
+		<td align="center">6</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#800000"><font color="#FFFFFF">Violet</font></td>
+		<td align="center">7</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#C0C0C0">Gray</td>
+		<td align="center">8</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#FFFFFF">White</td>
+		<td align="center">9</td>
+	</tr>
+</table>
+<p>Now, here's a simple circuit that you'll be familiar with when you start working with electronics. Using resistors with LEDs.</p>
+<p>Here's an interactive Flash program that demonstrates what happens when you don't use a resistor on an LED, and when you do.</p>
+<p align="center"><object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" id="obj1" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="550" height="400">
+	<param name="movie" value="LEDRES.swf">
+	<param name="quality" value="High">
+	<embed src="LEDRES.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" name="obj1" width="550" height="400"></object>
+</p>
+<p>As demonstrated here, when the LED was connected directly to a 9V battery, it burned out. <i>Never</i> do this in real life! The LED could explode in your hand.</p>
+<p>In the example with the 330&#937; resistor, the LED was unharmed, and glowed brightly.</p>
+<p>"How does this work?" you might ask. It's simple:</p>
+<p>The LED needs 2V to light, and we are powering it from a 9V battery. Subtract the LED voltage from the source voltage to get your resistor voltage: 7V. Now, to figure out the resistance, use Ohm's Law... divide the resistor's voltage by the LED current of 20mA, or 0.02 A. The result is 350&#937;. A 330&#937; resistor will work just fine in the circuit.</p>
+<br>
+<a href="components.htm">Back to Components</a>
+<br>
+
+<p align="center">© 2019 electrohowto.github.io</p>
+</body>
+
+</html>
