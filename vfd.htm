@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>The Vacuum Fluorescent Display (VFD)</title>
+</head>
+
+<body background="TRANS.png">
+<h1><p align="center">The Vacuum Fluorescent Display (VFD)</p></h1>
+<p>A vacuum fluorescent display, or VFD, is a display device that uses the same principles of a triode vacuum tube to light phosphor-coated anode plates.</p>
+
+<p>The symbol for a single-digit VFD looks like this:</p>
+<p align="center"><img border="0" src="vfdsym.gif" width="150" height="150"></p>
+
+<p>A VFD consists of an evacuated glass tube, a cathode comprised of a tungsten filament, a grid (or a few on multiple digit VFDs), and anode plates for the segments.</p>
+<p>To control a VFD tube with a <a href="intcircuit.htm">seven-segment decoder IC</a>, on 5V you'll need <a href="transistor.htm">transistors</a> to drive the 12V signals.</p>
+<p>Do <i>not</i> connect the cathode to 12V; you'll burn it out. Connect it to 3V, preferably AC. DC will cause a gradient in the display.</p>
+<hr>
+<p>Multiplexing VFDs requires grid control. First one grid turns on, then the next, and so on, at a rapid speed. This also requires higher grid and anode voltage, at least 20V is needed for the VFD to work.</p>
+
+<br>
+<a href="components.htm">Back to Components</a>
+<br>
+
+<p align="center">&copy; 2019 electrohowto.github.io</p>
+
+</body>
+
+</html>
